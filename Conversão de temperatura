@@ -1,0 +1,41 @@
+//algoritmo "Atividade"
+programa {
+	funcao inicio() {
+            var
+              inteiro numeroRepeticao, repetir,
+              cadeia temperatura 
+              real grausCelsius, grausFahrenheit, grausCelsiusConvertido, grausFahrenheitConvertido
+            
+                inicio
+                
+                Escreva("Quantas vezes você quer converter a temperatura?")
+                Leia(numeroRepeticao)
+                Repetir <- 1
+                
+                Enquanto (repetir <= numeroRepeticao) 
+                      Escreva("Qual a temperatura para conversão ?(celsius ou fahrenheit) ")
+                      Leia(temperatura)
+                
+                
+                      Se (temperatura = "celsius") entao
+                         Escreva("Informe os graus em Celsius: ")
+                         Leia(grausCelsius)
+                         grausCelsiusConvertido <- (grausCelsius * 1.8)+ 32
+                         Escreva("Os graus em Fahrenheit � ", grausCelsiusConvertido," graus")
+                            senao
+                               se opcaomenu = "2" entao
+                                  escreval("Digite a temperatura em fahrenheit:")
+                                  leia(fahrenheit)
+                                  celsius <- (fahrenheit - 32) / 1.8
+                                  escreval(fahrenheit, "ºF em celsius é:", celsius, "ºC")
+                                  para f de 1 ate 100 passo 1 faca
+                                  celsius<-(f - 32) / 1.8
+                                  escreval(celsius)
+                                  fimpara
+                           FimSe
+                           Repetir <- repetir + 1
+                    FimEnquanto
+            
+	}
+}
+
