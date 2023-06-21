@@ -1,0 +1,15 @@
+programa {
+	funcao inicio() {
+		inteiro idade, futuro
+		cadeia nome
+		
+		escreva("Informe seu nome: ")
+		leia(nome)
+		
+		escreva("Informe sua idade: ")
+		leia(idade)
+		
+		futuro = idade + 5
+		escreva("Daqui 5 anos você vai ter: " , futuro)
+	}
+}
