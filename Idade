@@ -1,0 +1,14 @@
+programa {
+	funcao inicio() {
+		real anoatual, anonascimento, idade
+		
+		escreva("Informe ano atual: ")
+		leia(anoatual)
+		
+		escreva("Informe o ano que você nasceu: ")
+		leia(anonascimento)
+		
+		idade = anoatual - anonascimento
+		escreva("Sua idade é: ", idade)
+	}
+}
