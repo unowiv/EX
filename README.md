@@ -1,2 +1,2 @@
-             # Portugol-Ex-logica
-        Exercicios de lógica em Portugol
+# Portugol-Ex-logica  
+Exercicios de lógica em Portugol
