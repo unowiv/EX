@@ -4,9 +4,9 @@ programa {
 		
 		escreva("Informe a nota da prova1: ")
 		leia(prova1)
-        escreva("Informe a nota da prova2: ")
+       		escreva("Informe a nota da prova2: ")
 		leia(prova2)
-	    escreva("Informe a nota do trabalho: ")
+	    	escreva("Informe a nota do trabalho: ")
 		leia(trabalho)
 		
 		media = (prova1*2 + prova2*3 + trabalho*4) / (2+3+4)
